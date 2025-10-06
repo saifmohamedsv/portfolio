@@ -97,6 +97,18 @@ export const DATA = {
         "Created a CLI using TypeScript and OpenAI API to convert OpenAPI specs into ActivePieces. Built an AI copilot called http-request-writer. Improved OpenAI response time by optimizing prompt size and cleaning unnecessary HTML before Markdown conversion.",
     },
     {
+      company: "Advert Leap",
+      href: "https://www.advertleap.com",
+      badges: [],
+      location: "Remote",
+      title: "Frontend Developer",
+      logoUrl: "https://i.ibb.co/27FZjfwb/advertleap-logo.jpg",
+      start: "Jan 2023",
+      end: "Mar 2023",
+      description:
+        "I worked on the ON-Ruf project at ADVERT LEAP and developed new features, enhanced the UI of certain dashboard parts, and implemented APIs using React.js, Redux, and CSS.",
+    },
+    {
       company: "TAQNEEN",
       href: "https://dyafat.com",
       badges: [],
@@ -153,11 +165,29 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Portfolio",
+      title: "Nzmly",
+      href: "https://nzmly.com",
+      dates: "2025",
+      active: true,
+      description:
+        "Implemented NestJS APIs in NextJS apps. Created new components using chakra-ui & tailwindCSS. Re-designed number of modules from Figma UI/UX designs.",
+      technologies: ["Next.js", "Typescript", "NestJS", "PostgreSQL", "Docker", "TailwindCSS", "Chakra-ui"],
+      links: [
+        {
+          type: "Website",
+          href: "https://nzmly.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/LDrvgvCM/nzmly.png",
+      video: "",
+    },
+    {
+      title: "Personal Portfolio",
       href: "https://saifmohamedsv.vercel.app",
       dates: "2025",
       active: true,
-      description: "Portfolio is a website that showcases my projects and skills.",
+      description: "A website that showcases my projects, skills, experience and blog.",
       technologies: ["Next.js", "Typescript", "TailwindCSS"],
       links: [
         {
@@ -167,6 +197,41 @@ export const DATA = {
         },
       ],
       image: "https://i.ibb.co/5WjLjVHF/portfolio.png",
+      video: "",
+    },
+    {
+      title: "use-any-hook",
+      href: "https://www.npmjs.com/package/use-any-hook",
+      dates: "2025",
+      active: true,
+      description:
+        "use-any-hook is a library designed to streamline state management and common functionality in React applications. It eliminates repetitive boilerplate, allowing developers to focus on building intuitive, scalable UIs.",
+      technologies: ["React", "Hooks", "State Management", "npm", "Custom Hooks"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.npmjs.com/package/use-any-hook",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/r2G2pQFG/cover.png",
+      video: "",
+    },
+    {
+      title: "Gold Profit Tracker",
+      href: "https://gold-profit.vercel.app/",
+      dates: "2025",
+      active: true,
+      description: "Gold is a website that allows you to track gold prices and calculate gold profit.",
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "DaisyUI", "goldAPI.io"],
+      links: [
+        {
+          type: "Website",
+          href: "https://gold-profit.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/CsNBKwrh/gold.png",
       video: "",
     },
     {
@@ -193,21 +258,37 @@ export const DATA = {
       video: "",
     },
     {
-      title: "use-any-hook",
-      href: "https://www.npmjs.com/package/use-any-hook",
+      title: "Ball Spin",
+      href: "https://spin-the-ball.vercel.app/",
       dates: "",
       active: true,
-      description:
-        "use-any-hook is a library designed to streamline state management and common functionality in React applications. It eliminates repetitive boilerplate, allowing developers to focus on building intuitive, scalable UIs.",
-      technologies: ["React", "Hooks", "State Management", "npm", "Custom Hooks"],
+      description: "Ball Spin is a game that allows you to spin a ball in a three dimensional space.",
+      technologies: ["React.js", "TailwindCSS", "Three.js"],
       links: [
         {
           type: "Website",
-          href: "https://www.npmjs.com/package/use-any-hook",
+          href: "https://spin-the-ball.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://i.ibb.co/r2G2pQFG/cover.png",
+      image: "https://i.ibb.co/Q389VWy8/ball-spin.png",
+      video: "",
+    },
+    {
+      title: "Chatty",
+      href: "https://chatty-pink.vercel.app/",
+      dates: "",
+      active: true,
+      description: "Chatty is a chat application that allows you to chat with your friends.",
+      technologies: ["React.js", "CSS", "Socket.io"],
+      links: [
+        {
+          type: "Website",
+          href: "https://chatty-pink.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/5D42yCZ/chatty.png",
       video: "",
     },
   ],
