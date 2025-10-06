@@ -80,7 +80,7 @@ export const DATA = {
       title: "Full-stack (FE Heavy) Developer",
       logoUrl: "https://i.ibb.co/KjVN4Kjy/nzmly-logo.jpg",
       start: "Mar 2024",
-      end: "Present",
+      end: "Jan 2025",
       description:
         "Developed customer review and payout bank features using Next.js & GraphQL. Converted the dashboard into a PWA and added push notifications with Firebase. Wrote Jest tests for NestJS resolvers and enhanced the web app UI with new Figma designs.",
     },
@@ -92,7 +92,7 @@ export const DATA = {
       title: "Software Engineer",
       logoUrl: "https://i.ibb.co/Cs816WqW/activepieces-logo.jpg",
       start: "May 2024",
-      end: "Present",
+      end: "Oct 2024",
       description:
         "Created a CLI using TypeScript and OpenAI API to convert OpenAPI specs into ActivePieces. Built an AI copilot called http-request-writer. Improved OpenAI response time by optimizing prompt size and cleaning unnecessary HTML before Markdown conversion.",
     },
