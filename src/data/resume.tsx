@@ -200,6 +200,24 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Toast System",
+      href: "https://toast-system.vercel.app/",
+      dates: "2025",
+      active: true,
+      description:
+        "Toast System is a library designed to streamline state management and common functionality in React applications. It eliminates repetitive boilerplate, allowing developers to focus on building intuitive, scalable UIs.",
+      technologies: ["React", "Hooks", "State Management", "npm", "Custom Hooks", "TailwindCSS"],
+      links: [
+        {
+          type: "Website",
+          href: "https://toast-system.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/ymKSTzBZ/toast-system.png",
+      video: "",
+    },
+    {
       title: "use-any-hook",
       href: "https://www.npmjs.com/package/use-any-hook",
       dates: "2025",
